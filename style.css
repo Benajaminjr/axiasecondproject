@@ -459,6 +459,15 @@ footer {
   line-height: 20px;
 }
 
+.props a {
+  color: white;
+}
+
+.props a:hover {
+  color: #4caf4f;
+  background-color: #ffffff;
+}
+
 footer p {
   color: white;
 }
@@ -496,10 +505,6 @@ input {
 @media screen and (max-width: 480px) {
   #home-btns {
     display: none;
-  }
-
-  header {
-    margin-right: -50px;
   }
 
   #nav-bar {
@@ -608,17 +613,18 @@ input {
 
   #unlock {
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
   }
 
   #unlock img {
     width: 200px;
-    margin-top: 50px;
+    margin: 150px 0 0 0;
   }
   .unlock-text {
     justify-items: center;
     text-align: center;
+    margin-top: -40px;
   }
 
   #unlock p {
@@ -628,6 +634,115 @@ input {
 
   #unlock h1 {
     font-size: 20px;
+  }
+
+  #achievements {
+    flex-direction: column;
+    padding: 30px;
+    margin: 0;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .ach-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  #cal {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #cal img {
+    width: 90%;
+  }
+
+  .cal-text-h1 {
+    max-width: fit-content;
+  }
+
+  #customers {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .customers-logos {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  #community-update {
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  #community-update p {
+    max-width: 100%;
+  }
+
+  .community-update-pictures {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .community-update-pictures img {
+    width: 60%;
+  }
+
+  #pre-footer {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+  }
+
+  #pre-footer h1 {
+    font-size: 25px;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 5px;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  footer img {
+    width: 40%;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
+  .props-logos {
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+  }
+
+  .props-logos-p p {
+    line-height: 20px;
+  }
+
+  footer h3 {
+    font-size: 15px;
+  }
+
+  .form-area {
+    font-size: 5px;
+    padding: 0;
+    margin: 0;
+  }
+
+  input {
+    margin: 10px;
+    max-width: 80%;
   }
 }
 
