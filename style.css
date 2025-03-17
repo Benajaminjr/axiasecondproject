@@ -321,13 +321,44 @@ li {
   padding: 20px;
 }
 
+.community-readmore {
+  position: relative;
+  bottom: 100px;
+  padding: 20px;
+  background-color: #f5f7fa;
+  box-shadow: 8px 8px 8px #abbed166;
+  border-radius: 5px;
+  max-width: 75%;
+  margin: auto;
+  /* text-align: center; */
+  /* align-content: center; */
+}
+
+.community-readmore p {
+  max-width: 300px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #717171;
+}
+
+.community-readmore a {
+  color: #4caf4f;
+}
+
+.community-readmore a:hover {
+  color: white;
+  padding: 3px 5px 3px 5px;
+  transition: 1s;
+}
+
 #community-update h2 {
   font-size: 30px;
   color: #4d4d4d;
 }
 
-#community-update p {
-  max-width: 40%;
+.community-update-p {
+  max-width: 47%;
   padding: 10px;
   color: #717171;
 }
@@ -665,14 +696,39 @@ input {
     max-width: fit-content;
   }
 
+  .cal-text p {
+    font-size: 12px;
+  }
+
+  .cal-text-h1 .btn {
+    padding: 20px 40px;
+  }
+
   #customers {
     flex-direction: column;
     padding: 0;
   }
 
+  .customers-logo img {
+    justify-items: center;
+    width: 300px;
+    padding: 0;
+    margin: 0;
+  }
+
   .customers-logos {
     flex-direction: column;
     padding: 10px;
+  }
+
+  .customers-logo-2 {
+    right: 70px;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .customers-logo-2 img {
+    margin-bottom: 5px;
   }
 
   #community-update {
@@ -681,8 +737,28 @@ input {
     margin-top: 20px;
   }
 
-  #community-update p {
-    max-width: 100%;
+  .community-readmore {
+    width: 50%;
+    bottom: 60px;
+    padding: 10px;
+    gap: 0;
+  }
+
+  .community-readmore p {
+    font-size: 10px;
+  }
+
+  .community-readmore a {
+    font-size: 10px;
+  }
+
+  .community-readmore a img {
+    width: 10%;
+  }
+
+  .community-update-p {
+    font-size: 12px;
+    max-width: 80%;
   }
 
   .community-update-pictures {
@@ -697,7 +773,13 @@ input {
   #pre-footer {
     padding: 20px;
     margin: 0;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+  }
+
+  .pre-footer-text {
+    max-width: fit-content;
   }
 
   #pre-footer h1 {
